@@ -1,7 +1,7 @@
 var cacheName = 'rol-sample-v1';
 var filesToCache = [
   '/',
-  'https://burnthesymphony.github.io/MyPWA/',
+  
   'assets/jquery.min.js',
   'assets/app.js',
   'assets/logo.png',
