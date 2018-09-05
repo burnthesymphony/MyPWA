@@ -1,4 +1,4 @@
-var cacheName = 'ROL-x';
+var cacheName = 'rol-sample-v1';
 var filesToCache = [
   '/',
   'index.html',
