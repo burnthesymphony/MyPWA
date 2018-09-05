@@ -1,7 +1,7 @@
-var cacheName = 'rol-sample-v1';
-var filesToCache = [ 
-  '/MyPWA/',
-  'index.html',
+var cacheName = 'ROL-x-09';
+var filesToCache = [
+  '/',
+  '/index.html',
   'assets/jquery.min.js',
   'assets/app.js',
   'assets/logo.png',
@@ -54,8 +54,6 @@ self.addEventListener('fetch', function(event) {
     caches.match(event.request)
       .then(function(response) {
         if (response) {
-          console.log('FETCH');
-          console.log(response);
           return response;
         }
         return fetch(event.request);
