@@ -11,7 +11,8 @@
 <body>
   <header class="header">
     <h1 class="header__title"><img src="assets/logo.png"></h1>
-
+    <button id="butRefresh" class="headerButton">a</button>
+    <button id="butAdd" class="headerButton">s</button>
   </header>
 
   <main class="main">
@@ -21,7 +22,6 @@
 
   <div class="dialog-container">
   . . .
-  
   </div>
 
   <div class="loader">
@@ -32,8 +32,5 @@
 
   <!-- Insert link to app.js here -->
   <script type="text/javascript" src="assets/app.js"></script>
-  <script type="text/javascript">
-
-  </script>
 </body>
 </html>
