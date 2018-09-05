@@ -1,4 +1,4 @@
-var cacheName = 'ROL-x-22';
+var cacheName = 'ROL-x-139391230';
 var filesToCache = [
   'https://burnthesymphony.github.io/MyPWA/',
   'https://burnthesymphony.github.io/MyPWA/index.html',
