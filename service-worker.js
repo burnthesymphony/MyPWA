@@ -1,7 +1,5 @@
 var cacheName = 'rol-sample-v1';
-var filesToCache = [
-  '/',
-  
+var filesToCache = [ 
   'assets/jquery.min.js',
   'assets/app.js',
   'assets/logo.png',
