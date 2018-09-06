@@ -1,4 +1,4 @@
-var cacheName = 'ROL-x-139391230';
+var cacheName = 'ROL-x-98210';
 var filesToCache = [
   'https://burnthesymphony.github.io/MyPWA/',
   'https://burnthesymphony.github.io/MyPWA/index.html',
@@ -7,6 +7,14 @@ var filesToCache = [
   'assets/logo.png',
   
 ];
+/*var filesToCache = [
+  '/',
+  'index.html',
+  'assets/jquery.min.js',
+  'assets/app.js',
+  'assets/logo.png',
+  
+];*/
 /*var DFilesToCache = [
 
   '/data/home.json',  
@@ -32,7 +40,7 @@ self.addEventListener('activate', function(event) {
     fetch('https://my-json-server.typicode.com/burnthesymphony/MyPWA/news').then(data=>data.json().then(
         function(JSONData){
               //dcache.delete('/home.json').then(
-              dcache.put('/home.json', new Response(JSON.stringify(JSONData)))
+              dcache.put('home-data', new Response(JSON.stringify(JSONData)))
 
          // )
          
