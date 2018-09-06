@@ -5,8 +5,7 @@
   "background_color": "#dae0e4",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "/",
-  "start_url": "https://burnthesymphony.github.io/MyPWA/index.html",
+  "start_url": "/?utm_source=homescreen",
   "icons": [
     {
       "src": "/images/icons/icon-72x72.png",
