@@ -13,7 +13,7 @@ if ('serviceWorker' in navigator) {
          
         }
     )).catch(function(error){
-             caches.match('/home.json').then(data=>data.json().then(function(data){
+             caches.match('home-data').then(data=>data.json().then(function(data){
                 displayPage(data,'caches');
               })).catch(function(error){  console.log(error)})
 
