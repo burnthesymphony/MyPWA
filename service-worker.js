@@ -1,4 +1,4 @@
-var cacheName = 'ROL-x-98210';
+var cacheName = 'REPUBLIKA-51234-001';
 var filesToCache = [
   'https://burnthesymphony.github.io/MyPWA/',
   'https://burnthesymphony.github.io/MyPWA/index.html',
