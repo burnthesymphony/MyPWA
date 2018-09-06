@@ -15,7 +15,7 @@ if ('serviceWorker' in navigator) {
     )).catch(function(error){
              caches.match('home.json').then(data=>data.json().then(function(data){
                 displayPage(data,'caches');
-              })).catch(function(){  console.log('NODATA DISPLAY')})
+              })).catch(function(error){  console.log(error)})
 
     })
 
